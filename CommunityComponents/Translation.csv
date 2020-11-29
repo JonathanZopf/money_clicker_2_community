@@ -1,0 +1,201 @@
+id;english;german
+//Building Window
+Level;Level;Stufe
+BuildingType;Building Type;Gebäude-Typ
+Demolish;Demolish;Abreißen
+Upgrade;Upgrade;Verbessern
+Search;Search;Suchen
+//BuildingTypes
+RealEstate;Residential;Wohnung
+RealEstateSuburbs;Residential (Suburbs);Vorstadthaus
+Commercial;Shop;Geschäft
+Factory;Factory;Fabrik
+StockExchange;Stock Exchange;Börse
+CompanyHQ;Company HQ;Firmenzentrale
+ResearchDepartment;Research Dept;Forschungsz.
+ClickerBuilding;Clicker Building;Clicker-Zentrale
+Airport;Airport;Flughafen
+MayorMansion;Mayor's Mansion;Bürgermeister-Villa
+//Real Estate
+Tenants;Tenants;Mieter
+RentPerHour;Rent per hour; Mieteinnahmen pro Stunde
+//Shops
+ProductType;Product Type; Produkt
+Employees;Employees; Angestellte
+ProductsSoldPerHour;Products sold per hour; Verkaufte Produkte pro Stunde
+FinancialBalance;Financial Balance; Gewinn
+ChangeEmployeeNumber; Change Employee Number; Angestelltenzahl Ändern
+//Factory
+ProductsProducedPerHour;Products produced per hour; Hergestellte Produkte pro Stunde
+//StockExchange
+SharePrice;Current Share Price;Aktueller Aktienpreis
+CompanyValue;Company Value; Wert des Unternehmens
+TotalShares;Total Shares;Alle Aktien
+MyShares;My Shares;Meine Aktien
+MoreDetailsStocks;More Details;Mehr Details
+BuySellShares;Buy / Sell;Kaufen / Verkaufen
+SharesToPurchase;Shares to purchase;Aktien zu kaufen
+SharesToSell;Shares to sell;Aktien zu verkaufen
+TransactionFee;Transaction Fee;Transaktionsgebühr
+PriceShares;Price;Preis
+IncomeShares;Income;Gewinn
+//Dialogs
+Yes;Yes;Ja
+No;No;Nein
+UpgradeBuildingTitle;Upgrade Building?;Gebäude Verbessern?
+UpgradeBuildingMessage;Do you really want to upgrade this building? This action will cost you <var>.; Möchtest du wirklich dieses Gebäude verbessern? Dies wird dich <var> kosten.
+UpgradeBuildingNoSpaceTitle;Not enough Space for Upgrade;Nicht genügend Platz für ein Upgrade
+UpgradeBuildingNoSpaceMessage;This plot is not big enough to upgrade this building. Therefore it is on its maximum level for this plot size.;Dieses Grundstück ist nicht groß genug, um ein Gebäudeupgrade durchzuführen.
+UpgradeBuildingNoSpaceButton;Dismiss;Verstanden!
+DemolishBuildingTitle;Demolish Building?;Gebäude Abreißen?
+DemolishBuildingMessage;Do you really want to demolish this building? You will have to build up the building from scratch again.; Möchtest du wirklich dieses Gebäude abreißen? Das Gebäude wirst du wieder von Grund auf bauen müssen.
+NoMoneyTitle;Not enough Money;Nicht genügend Geld
+NoMoneyDescription;You cannot afford this. You are missing <var>!;Du kannst dir dies nicht leisten. Es fehlen dir <var>.
+EnterText;Enter Text;Text eingeben
+DeleteProductTitle;Delete Product;Produkt löschen
+DeleteProductMessage;Do you really want to delete the product <var>?;Möchtest du wirklich das Produkt <var> löschen?
+IncreaseMultiplierTitle;Increase Multiplier?Multiplikator Verbessern?
+IncreaseMultiplierMessage;Do you really want to increase the multiplier to <var1>?This action will cost you <var2>.;Möchtest du wirklich den Multiplikator auf <var1> verbessern? Dies wird dich <var2> kosten.
+BuyBoosterTitle;Buy booster?Booster kaufen?
+BuyBoosterMessage;Do you really want to buy a 4x booster for 60s? This will cost you <var>.;Möchtest du wirklich einen x4-Booster für 60s kaufen? Dies wird dich <var> kosten.
+//Company
+Statistics;Statistics;Statistiken
+Inventory;Inventory;Inventar
+Income;Income;Gewinn
+GeneralSettings;General;Überblick
+Products;Products;Produkte
+EditCompanyName;Edit Name; Name ändern
+CompanyValue;Company Value;Unternehmenswert
+TotalEmployees;Total Employees;Angestellte
+CompanyIncome;Income per hour;Gewinn pro Stunde 
+CompanyBuilding;Building;Gebäude
+StorageCapacity;Storage Capacity;Lagerkapazität
+StorageLeft;Space left: ;Platz verbleibend: 
+EditCompanyName;Edit Name;Name ändern
+AddBuilding;Add Building;Gebäude hinzufügen
+AddProduct;Add Product;Produkt hinzufügen
+ProductName;Name;Name
+ProductionCosts;Production Costs;Produktionskosten
+ProductDevelopmentLevel;Lvl. <var>;Stf. <var>
+ProductDevelopmentLevelLong;Level;Stufe
+ProductPresets;Presets;Voreinstellungen
+NoProduct;None;Kein Produkt
+SelectCompany;Select Company;Unternehmen auswählen
+//Products
+ChangeProduct;Change Product;Produkt wählen
+NoProductsOfCompanyTitle;No products;Keine Produkte
+NoProductsOfCompanyMessage;To create a pro duct: Open company HQ > Tap on "Products" > Click "AddProduct";Um ein Produkt zu erstellen: Firmenzentrale öffnen > "Produkte" auswählen > "Produkt hinzufügen" auswählen
+ConfirmEditProduct;Confirm Edit;Bestätigen
+SalePrice;Sale Price;Verkaufspreis
+EditProduct;Edit Product;Produkt Bearbeiten
+SelectProduct;Select Product;Produkt auswählen
+//Buildings
+ResidentialTitle;Residential;Wohnung
+ResidentialDescription;Has a higher capacity of renters than suburban house.;Hat mehr Kapazität als Vorstadthäuser.
+ResidentialSuburbsTitle;Residential (Suburbs);Vorstadthaus
+ResidentialSuburbsDescription;Tenants will move in and pay you a constant rent.;Mieter werden einziehen und dir Miete einbringen.
+FactoryTitle;Factory;Fabrik
+FactoryDescription;Produces products, which can be sold in shops.;Produziert Produkte, die in Geschäften verkauft werden können.
+FactoryRequirements;Build Company HQ;Errichte Firmenzentrale
+ShopTitle;Shop;Geschäft
+ShopDescription;Sells products. Needs constantly new products from factory. A lucrative way to earn money.;Benötigt Produkte aus Fabriken für eine sichere Lieferkette.
+ShopRequirements;Build Company HQ;Errichte Firmenzentrale
+CompanyHQTitle;Company HQ; Firmenzentrale
+CompanyHQDescription;Manage your company in one single place.;Steuer die Geschicke deines Unternehmens.
+ResearchDepartmentTitle;Research Department;Forschungsgebäude
+ResearchDepartmentDescription;Researchers improve your products.;Erlaubt dir, deine Produkte zu verbessern.
+ResearchDepartmentRequirements;Build Company HQ;Errichte Firmenzentrale
+AirportTitle;Airport;Flughafen
+AirportDescription;You can start flights to foreign cities there.;Du kannst deine Flugzeuge von hier zu anderen Städten fliegen lassen.
+AirportRequirements;Can be build only once;Kann nur einmal gebaut werden
+//BuildingUpgrades
+UpgradeTimeRemaining;Upgrade Time Remaining;Zeit verbleibend
+Hour;Hour;Stunde
+Hours;Hours;Stunden
+HoursAbbreviated;h;h
+Minute;Minute;Minute
+Minutes;Minutes;Minuten
+MinutesAbbreviated;min;min
+Second;Second;Sekunde
+Seconds;Seconds;Sekunden
+SecondsAbbreviated;s;s
+SkipWaitingTime;Skip Waiting Time;Wartezeit überspringen
+//ResearchDepartment
+ResearchDepartmentEmpty;Free;Frei
+//Problems
+ProblemShopOutOfStockTitle;Product out of stock;Produkt nicht verfügbar
+ProblemShopOutOfStockMessage;The product <var> is currently out of stock. Increase production to solve this problem.;Das Produkt <var> ist aktuell nicht verfügbar. Erhöhe die Produktion um das Problem zu lösen.
+ProblemInventoryFullTitle;Storage full;Lagerhalle voll
+ProblemInventoryFullMessage;The storage of company <var> is full. Produced items couldn't be stored. Upgrade the company headquater building to solve this problem;Die Lagerhalle für <var> ist voll. Die Produkte konnten deswegen nicht gelagert werden. Verbessere deinen Firmenzentrale um das Problem zu lösen.
+//Clicker
+BuyBooster;Buy 60s Booster - <var>;60s Booster kaufen - <var>
+IncreaseMultiplier;Increase Multiplier - <var>;Multiplikator erhöhen - <var>
+BoosterTimeRemaining;Booster remaining: <var>;Booster-Zeit: <var>
+MultiplierCounter;Multiplier: <var>;Multiplikator: <var>
+MultiplierMax;Max;Max
+//Airport
+BuyAirplane;Buy Airplanes;Flugzeuge kaufen
+SelectModel;Select Model;Modell auswählen
+SelectColor;Select Color;Farbe auswählen
+BuyAirplaneButton;Buy Airplane;Flugzeug kaufen
+Airplanes;Airplanes;Flugzeuge
+ScheduleFlights;Schedule Flights;Flüge ansetzen
+SelectAirplane;Select Airplane;Flugzeug auswählen
+SelectDestination;Select Destination;Ziel auswählen
+NoAirplaneSlotsTitle;No Space for more Airplanes;Kein Platz für weitere Flugzeuge
+NoAirplaneSlotsMessage;Upgrade the airport in order to buy more airplanes.;Verbessere den Flughafen, um mehr Flugzeuge zu kaufen.
+//City
+CityStatistics;City Statistics;Meine Stadt
+Inhabitants;Inhabitants;Bewohner
+Buildings;Buildings;Gebäude
+ForeignVisitors;Foreign Visits;Besucher
+FoundingDate;Founded;Gegründet
+Kilometers;km;km
+NoAirplaneFreeTitle;No free Airplane;Kein verfügbares Flugzeug
+NoAirplaneFreeMessage;Either all of your airplanes are currently flying or you need to buy an airplane first.;Entweder sind alle deine Flugzeuge unterwegs oder du musst noch dein erstes Flugzeug kaufen.
+//Welcome
+WelcomeTitle;Welcome;Wilkommen
+WelcomeMessage;Thank you for playing Money Clicker 2. Please note that this is only a preview version. This means that bugs can occur and that the game is constantly in development.;Danke dass du Money Clicker 2 spielst. Bitte beachte, dass es sich hierbei um eine Preview-Version handelt. Dies bedäudet, dass es zu technischen Fehlern kommen kann und sich das Spiel in laufender Entwicklung befindet.
+WelcomeDisclaimer;Disclaimer: This game is only a simulation for entertainment purposes. All items in this game (incl. but not limited to money, company shares, vehicles, real estate, companies, ranks and achievements) are only virtual. The player has no right to get those items exchanged for real, physical objects. Cash payouts are not possible.;Hinweis: Dieses Spiel ist ausschließlich eine Simulation, die der Unterhaltung dient. Alle Güter in diesem Spiel sind ausschließlich virtuell. Der Spieler hat kein Anrecht auf einen Umtausch der virtuellen Güter in reale Objekte. Bargeldauszahlungen sind nicht möglich.
+WelcomeButtonContinue;Continue;Weiter
+WelcomeNameCityTitle;Give your City a Name;Gieb deiner Stadt einen Namen
+Longitude;Longitude;Längengrad
+Latitude;Latitude;Breitengrad
+WelcomeExplainationLocation;This data is used for calculating distances to foreign airports.;Diese Informationen werden genutzt, um die Entfernung zu anderen Flughäfen zu berechnen.
+EnterInvitationCode;Enter Invitation Code;Einladungscode Eingeben
+WelcomeExplanationInvitationCode;If one of your friends send you an invitation code, please enter it now. You will start with an additional bonus of <var>.;Falls ein deiner Freunde dir ein Einladungscode gegeben hat, kannst du ihn hier einlösen. Du wirst dann zusätzlich mit <var> starten.
+InvalidInvitationCodeTitle;Invalid Invitation Code;Ungültiger Code
+InvalidInvitationCodeQuestion;The invitation code you've entered is wrong. Do you want to correct it now or start playing without starting gift?;Der eingetragene Code ist ungültig. Möchtest du ihn korrigieren oder ohne Bonus mit dem Spiel starten?
+InvalidInvitationCodeCorrectCode;Correct Code;Code korrigieren
+InvalidInvitationCodeSkip;Start Playing;Überspringen
+//Settings
+SettingsTitle;Settings;Einstellungen
+EnterCode;Enter Code;Code Eingeben
+SubmitCode;Submit Code;Code Übermitteln
+SignInGooglePlayGames:Sign in;Anmelden
+SignOutGooglePlayGames:Sign out;Abmelden
+ResetProgressConfirmationTitle;Reset Progress;Fortschritt zurücksetzen
+ResetProgressConfirmationMessage;Do you really want to reset all your progress? You will have to start from scratch again. This process can't be reverted!;Möchtest du wirklich deinen Fortschritt zurücksetzten. Du wirst wieder von Anfang an beginnen. Dies kann nicht rückgänig gemacht werden.
+ResetProgressRestartTitle;Restart Application;App neu starten
+ResetProgressRestartMessage;Your progress has been reset. Please restart the game now.;Dein Fortschritt wurde zurückgesetzt. Bitte starte die App neu.
+ResetProgressRestartButton;Restart Now;Neustarten
+//GoldPass
+BuyMoneyClickerGoldPassWindowTitle;Buy MC Gold Pass;MC Gold-Pass kaufen
+GoldPass;Gold Pass;Gold-Pass
+BuyGoldPassPrice;Just <var>;Nur <var>
+BuyGoldPassButton;Buy Now;Jetzt Kaufen
+RestorePurchase;Restore Purchase;Kauf wiederherstellen
+//CustomProducts
+product:Smartphone;Smartphone
+product:Notebook;Notebook;Laptop
+product:Earphones;Earphones;Kopfhörer
+product:Television;Television;Fernseher
+product:Furniture;Furniture;Möbel
+product:Car;Car;Auto
+product:Books;Books;Bücher
+//Share
+shareTitle;Invite friends;Lade Freunde ein
+shareSubject;Try out Money Clicker!;Spiele mit mir Money Clicker!
+shareText;I've been playing Money Clicker and I thought maybe you wanna join! Download it here: (Android) <var1> | (Apple iOS) <var2>. See you in the game!;Ich spiele seit einiger Zeit Money Clicker und dachte, dass du vieleicht mitmachen willst. Lade es dir hier herunter: Android <var1> | iOS <var2>
+postcardTitle;Greetings from <var>!;Grüße aus <var>!
+postcardEstablished;Est.: <var>;Gegründet <var>
